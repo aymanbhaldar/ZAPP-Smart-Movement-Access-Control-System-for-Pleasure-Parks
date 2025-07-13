@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CompanyCard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CompanyCard\ here.\r\n\r\n@author\ Ayman\ A.\ Bhaldar\ \r\n\ @version\ 11/1/24\r\n
+comment1.params=idNumber\ name\ luxRating
+comment1.target=CompanyCard(int,\ java.lang.String,\ int)
+comment1.text=\ Creates\ a\ \ company\ card\r\n\ @param\ idNumber\ represents\ the\ company\ card's\ id\ number\r\n\ @param\ n\ represents\ the\ company's\ name\r\n\ @param\ luxRating\ is\ the\ luxury\ rating\ of\ card\r\n\ @param\ credits\ is\ defaulted\ to\ 30\r\n
+comment2.params=
+comment2.target=boolean\ hasCredits()
+comment2.text=\ Method\ returning\ boolean\ true,\r\n\ \ if\ company\ card\ has\ enough\ credits(3)\ to\ pass\ the\ bridge\r\n
+comment3.params=
+comment3.target=void\ updateCard()
+comment3.text=\ @override\r\n\ Method\ to\ update\ card\ details\ after\ moing\ across\ bridge\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ @overrides\ which\ overrides\ toString()\ in\ Card\ to\ include\ subclass\ data\r\n\ Method\ returning\ a\ string\ representation\ of\ Company\ Card\ with\ all\ details,\r\n
+numComments=5

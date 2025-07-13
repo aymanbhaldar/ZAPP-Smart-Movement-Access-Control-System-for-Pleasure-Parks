@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=ZAPP
+comment0.text=\r\n\ interface\ ZAPP\ specifies\ requirements\ for\ 5COM2007\ Cwk\ 3\ \r\n\ \r\n\ @author\ A.Marczyk\ \r\n\ @version\ 15/10/23\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Returns\ all\ of\ the\ details\ of\ the\ park\:\ its\ name\ and\ its\ areas\ \r\n\ including\ lists\ of\ cards\ in\ each\ area.\r\n
+comment10.params=cdId
+comment10.target=void\ convertPoints(int)
+comment10.text=\ Allows\ a\ card\ to\ convert\ points\ to\ credits\r\n\ \ @param\ cdId\ the\ id\ of\ the\ card\ toping\ up\ their\ credits\r\n
+comment2.params=cardId
+comment2.target=java.lang.String\ getCardDetails(int)
+comment2.text=Returns\ a\ String\ with\ details\ of\ a\ card\r\n\ @param\ cardId\ -\ id\ number\ of\ the\ card\r\n\ @return\ the\ details\ of\ the\ card\ as\ a\ String,\ or\ "No\ such\ card"\r\n
+comment3.params=ccd
+comment3.target=java.lang.String\ getCardLocation(int)
+comment3.text=Returns\ the\ name\ of\ the\ area\ which\ contains\ the\ specified\ card\ or\ null\r\n\ @param\ ccd\ -\ the\ specified\ card\r\n\ @return\ the\ name\ of\ the\ Area\ which\ contains\ the\ card,\ or\ null\r\n
+comment4.params=ww
+comment4.target=int\ getAreaNumber(java.lang.String)
+comment4.text=\ Given\ the\ name\ of\ a\ area,\ returns\ the\ area\ id\ number\r\n\ or\ -1\ if\ area\ does\ not\ exist\r\n\ @param\ name\ of\ area\r\n\ @return\ id\ number\ of\ area\r\n
+comment5.params=area
+comment5.target=java.lang.String\ getAllCardsInOneArea(java.lang.String)
+comment5.text=Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ specified\ area\r\n\ @param\ area\ is\ the\ name\ of\ the\ area\r\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ specified\ area\r\n
+comment6.params=
+comment6.target=java.lang.String\ getAllCardsInAllAreas()
+comment6.text=Returns\ a\ String\ representation\ of\ all\ the\ cards\ in\ all\ areas\ including\ the\ name\ of\ each\ area\r\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ specified\ area\r\n
+comment7.params=trId\ brCode
+comment7.target=boolean\ canMove(int,\ java.lang.String)
+comment7.text=Returns\ true\ if\ a\ Card\ is\ allowed\ to\ move\ using\ the\ bridge,\ false\ otherwise\r\n\ A\ move\ can\ be\ made\ if\:\ \ \r\n\ the\ rating\ of\ the\ card\ \ >\=\ the\ rating\ of\ the\ destination\ area\r\n\ AND\ the\ destination\ area\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ area\r\n\ AND\ the\ card\ id\ is\ for\ a\ card\ on\ the\ system\r\n\ AND\ the\ bridge\ code\ is\ the\ code\ for\ a\ bridge\ on\ the\ system\r\n\ @param\ trId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ brCode\ is\ the\ code\ of\ the\ bridge\ by\ which\ the\ card\ wants\ to\ move\r\n\ @return\ true\ if\ the\ card\ is\ allowed\ on\ the\ bridge\ journey,\ false\ otherwise\ \r\n
+comment8.params=pCardId\ brCode
+comment8.target=java.lang.String\ move(int,\ java.lang.String)
+comment8.text=Returns\ the\ result\ of\ a\ card\ requesting\ to\ move\ over\ a\ bridge.\r\n\ A\ move\ will\ be\ successful\ if\:\ \ \r\n\ the\ luxury\ rating\ of\ the\ card\ \ >\=\ the\ luxury\ rating\ of\ the\ destination\ area\r\n\ AND\ the\ destination\ area\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ area\r\n\ AND\ the\ card\ id\ is\ for\ a\ card\ in\ the\ system\r\n\ AND\ the\ bridge\ code\ is\ the\ code\ for\ a\ bridge\ on\ the\ system\r\n\ If\ the\ bridge\ crossing\ can\ be\ made,\ the\ card\ information\ is\ removed\ from\ \r\n\ the\ source\ area,\ added\ to\ the\ destination\ area,\ card\ details\ updated\ and\ a\ suitable\ message\ returned.\r\n\ a\ suitable\ message\ returned.\r\n\ If\ bridge\ journey\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\r\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\r\n\ @param\ pCardId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ brCode\ is\ the\ code\ of\ the\ bridge\ by\ which\ the\ card\ wants\ to\ move\r\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\ \r\n
+comment9.params=id\ creds
+comment9.target=void\ topUpCredits(int,\ int)
+comment9.text=\ Allows\ a\ card\ to\ top\ up\ their\ credits.This\ method\ is\ not\ concerned\ with\ \r\n\ \ the\ cost\ of\ a\ credit\ as\ currency\ and\ prices\ may\ vary\ between\ resorts.\r\n\ \ @param\ id\ the\ id\ of\ the\ card\ toping\ up\ their\ credits\r\n\ \ @param\ creds\ the\ number\ of\ credits\ purchased\ to\ be\ added\ to\ cards\ information\r\n
+numComments=11

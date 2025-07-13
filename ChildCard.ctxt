@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ChildCard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ChildCard\ here.\r\n\r\n\ @author\ Ayman\ A.\ Bhaldar\ \r\n\ @version\ 11/1/24\r\n
+comment1.params=idNumber\ pcn\ visits\ name\ credits
+comment1.target=ChildCard(int,\ int,\ int,\ java.lang.String,\ int)
+comment1.text=\ Creates\ a\ \ child\ card\r\n\ @param\ idNumber\ represents\ the\ child\ card's\ id\ number\r\n\ @param\ n\ represents\ the\ child's\ name\r\n\ @param\ luxury\ rating\ which\ will\ always\ be\ 10\ so\ defaulted\ to\ 10\r\n\ @param\ credits\ represents\ the\ credits\r\n
+comment2.params=
+comment2.target=int\ getParentCardNo()
+comment2.text=Returns\ Parent's\ Card\ Id\ Number\r\n\ @return\ parent\ card\ id\ number\r\n
+comment3.params=
+comment3.target=int\ getNoOfVisits()
+comment3.text=\ Returns\ the\ number\ of\ area\ the\ child\ has\ visited\r\n\ @return\ number\ of\ visits\ done\ by\ child\r\n
+comment4.params=
+comment4.target=boolean\ hasCredits()
+comment4.text=\ Method\ returning\ boolean\ true,\r\n\ \ child\ card\ doesn't\ require\ credits\ to\ move\ across\ bridge\r\n
+comment5.params=
+comment5.target=void\ updateCard()
+comment5.text=\ @override\r\n\ Method\ to\ update\ card\ details\ after\ moing\ across\ bridge\r\n\ \r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ @overrides\ which\ overrides\ toString()\ in\ Card\ to\ include\ subclass\ data\r\n\ Method\ returning\ a\ string\ representation\ of\ Child\ Card\ with\ all\ details,\r\n\ including\ No\ of\ visits\ and\ Parent\ Card\ Id\ number\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Bridge
+comment0.text=\r\n\ A\ bridge\ provides\ a\ one-way\ connection\ between\ two\ areas.\ It\r\n\ has\ a\ bridge\ code\ and\ information\ about\ both\ the\ source\ and\r\n\ the\ destination\ area\r\n\ \r\n\ @author\ Ayman\ A.\ Bhaldar\ \r\n\ @version\ 11/1/24\r\n
+comment1.params=cd\ src\ dst
+comment1.target=Bridge(java.lang.String,\ Area,\ Area)
+comment1.text=\ Creates\ a\ bridge\r\n\ @param\ cd\ represents\ the\ bridge\ code\r\n\ @param\ src\ is\ the\ Source\ Area\r\n\ @param\ dst\ is\ the\ Destination\ Area\r\n\ @param\ cr\ represents\ the\ credits\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBridgeCode()
+comment2.text=Returns\ Bridge\ code\r\n\ @return\ bridge\ code\r\n
+comment3.params=cc
+comment3.target=boolean\ canCardEnter(Card)
+comment3.text=\ Method\ returning\ boolean\ true,\r\n\ if\ specified\ Card\ can\ enter\ the\ destination\ Area\r\n\ @param\ cc\ is\ the\ specified\ Card\r\n
+comment4.params=cc
+comment4.target=java.lang.String\ moveCard(Card)
+comment4.text=Method\ returning\ String\ with\ suitable\ message\ of\ the\ result\ of\ the\ request\r\n\ Method\ to\ move\ card\ from\ Source\ Area\ to\ Destination\ Area\r\n\ @param\ cc\ is\ the\ specidied\ Card\ cc\r\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ Returns\ a\ String\ representation\ of\ the\ details\ of\ the\ Bridge\ including\r\n\ bridge\ code,\ source\ Area\ &\ destination\ Area\r\n\ @return\ string\ with\ details\ of\ bridge\r\n
+numComments=6

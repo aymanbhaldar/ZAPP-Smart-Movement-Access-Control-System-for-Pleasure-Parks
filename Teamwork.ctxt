@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Teamwork
+comment0.text=\r\n\ Details\ of\ your\ team\r\n\ \r\n\ @author\ Ayman\ A.\ Bhaldar\ \r\n\ @version\ 11/1/24/**\ Creates\ a\ card\r\n
+comment1.params=
+comment1.target=Teamwork()
+comment2.params=
+comment2.target=java.lang.String[]\ getTeamDetails()
+comment2.text=Retruns\ a\ string\ representation\ of\ details\ of\ the\ Team\ Members\r\n\ @return\ details\ of\ team\ member\r\n\ \r\n
+comment3.params=
+comment3.target=void\ displayDetails()
+comment3.text=Prints\ details\ of\ team\ members\r\n\ \r\n
+numComments=4
